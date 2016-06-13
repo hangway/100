@@ -7,7 +7,7 @@ caps("i'm lower case")
 
 puts "Please choose a number between 0 and 100: "
 input = gets.chomp.to_i
-response = case
+age = case
            when input < 51
             "Your number is less than or equal to 50"
           when input < 101
@@ -16,6 +16,6 @@ response = case
            "Your number is too high."
           end
 
-puts response
+puts age
 
 
